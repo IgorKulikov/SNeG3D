@@ -1,0 +1,2 @@
+ifort /QaxCORE-AVX2 /Qopenmp /Qparallel /Qpar-num-threads=2 /Fecode3d.exe ./machine.f ./mesh.f ./poisson.f ./density_init_profile.f ./gravity_init_profile.f ./velocity_init_profile.f ./eos.f ./recovery.f ./load.f ./boundary_hydro.f ./boundary_poisson.f ./projection.f ./gravity_projection.f ./poisson_solver.f ./multigrid.f ./save.f ./tau.f ./linear.f ./riemann.f ./godunov.f ./main.f
+del *.obj *.mod
